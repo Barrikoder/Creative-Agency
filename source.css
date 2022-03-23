@@ -28,6 +28,7 @@ h3 {
 h4 {
   font-size: 13px;
   font-weight: 900;
+  text-transform: uppercase;
 }
 
 h5 {
@@ -81,3 +82,73 @@ input[type=text], select, textarea {
 
   }
 
+
+
+
+  .expertise-titel {
+    text-align: center;
+  
+  }
+
+
+  .img-logo {
+    height: 50px;
+  }
+
+  .expertise-items {
+    display: grid;
+    justify-items: center;
+    justify-content: center;  
+    align-items: start;
+    place-self: top;
+    column-gap: 0px;
+    text-align: center;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "main main main"
+      "main main main"
+  }
+
+  .expertise-item-1 {
+    grid-area: main;
+    grid-area: 2 / 1;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    padding: 20px;
+  }
+
+  .expertise-item-2 {
+    grid-area: main;
+    grid-area: 2 / 2;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    padding: 20px;
+  }
+
+  .expertise-item-3 {
+    grid-area: main;
+    grid-area: 2 / 3;
+    border-bottom: 1px solid black;
+    padding: 20px;
+  }
+
+  .expertise-item-4 {
+    grid-area: main;
+    grid-area: 3 / 1;
+    border-right: 1px solid black;
+    padding: 20px;
+  }
+
+  .expertise-item-5 {
+    grid-area: main;
+    grid-area: 3 / 2;
+    border-right: 1px solid black;
+    padding: 20px;
+  }
+
+  .expertise-item-6 {
+    grid-area: main;
+    grid-area: 3 / 3;
+    padding: 20px;
+  }
