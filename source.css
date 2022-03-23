@@ -1,7 +1,6 @@
 body {
   margin: 0px;
   padding: 0px;
-  background: #ffffff;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 16px;
   color: #414247;
@@ -12,6 +11,7 @@ h1 {
   font-size: 32px;
   color: #ffffff;
   font-weight: 900;
+  text-transform: capitalize;
 }
 
 h2 {
@@ -28,6 +28,7 @@ h3 {
 h4 {
   font-size: 13px;
   font-weight: 900;
+  text-transform: uppercase;
 }
 
 h5 {
@@ -81,3 +82,81 @@ input[type=text], select, textarea {
 
   }
 
+
+  /** Expertise grid */
+
+  .img-logo {
+    height: 50px;
+  }
+
+  .expertise {
+    display: grid;
+    justify-items: center;
+    justify-content: space-evenly;  
+    align-items: start;
+    grid-template-columns: 256px 256px 256px;
+    grid-template-rows: 256px 256px 256px;
+    grid-template-areas: 
+      "header header header"
+      "main main main"
+      "main main main"
+  }
+
+  .expertise-title {
+    grid-area: header;
+
+  }
+
+  .expertise-item: last-child, .item:nth-last-child(2):nth-child(odd) {
+    border-bottom: none; 
+
+  }
+
+
+  .expertise-item-1 {
+    grid-area: main;
+    grid-area: 2 / 1;
+    place-self: top;
+    text-align: center;
+    border-bottom: 1px solid black;
+  }
+
+  .expertise-item-2 {
+    grid-area: main;
+    grid-area: 2 / 2;
+    place-self: top;
+    text-align: center;
+    border-bottom: 1px solid black;
+  }
+
+  .expertise-item-3 {
+    grid-area: main;
+    grid-area: 2 / 3;
+    place-self: top;
+    text-align: center;
+    border-bottom: 1px solid black;
+  }
+
+  .expertise-item-4 {
+    grid-area: main;
+    grid-area: 3 / 1;
+    place-self: top;
+    text-align: center;
+    border-bottom: 1px solid black;
+  }
+
+  .expertise-item-5 {
+    grid-area: main;
+    grid-area: 3 / 2;
+    place-self: top;
+    text-align: center;
+    border-bottom: 1px solid black;
+  }
+
+  .expertise-item-6 {
+    grid-area: main;
+    grid-area: 3 / 3;
+    place-self: top;
+    text-align: center;
+    border-bottom: 1px solid black;
+  }
