@@ -18,6 +18,7 @@ h2 {
   font-family: "Playfair Display";
   font-size: 22px;
   font-weight: 600;
+  margin: 10px;
   text-transform: uppercase;
   }
 
@@ -37,6 +38,8 @@ h5 {
   font-family: "Playfair Display";
   font-size: 14px;
   font-weight: 400;
+  margin-bottom: 24px;
+  margin-top: 0px;
 }
 
 p {
