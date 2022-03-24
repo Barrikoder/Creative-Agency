@@ -98,7 +98,7 @@ input[type=text], select, textarea {
   .expertise {
     display: grid;
     justify-items: center;
-    justify-content: center; 
+    justify-content: center;  
     align-items: start;
     place-self: top;
     column-gap: 0px;
