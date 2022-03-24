@@ -171,8 +171,44 @@ input[type=text], select, textarea {
     padding: 24px;
   }
 
-  hr {
+  .expertise hr {
     width: 40px;
     background-color: rgb(65, 61, 75);
     opacity: 0.302;
+  }
+
+
+  /** Footer */
+
+  .footer {
+    width: 100%;
+    position: relative;
+  }
+
+  .three-columns {
+    position: absolute;
+    top: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .footer-column-1 {
+    width: 300px;
+
+  }
+
+  .footer-column-2 {
+    width: 300px;
+
+  }
+
+  .footer-column-3 {
+    width: 300px;
+
+  }
+
+  .btn btn-default {
+  opacity: 80%;
   }
