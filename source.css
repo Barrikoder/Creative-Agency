@@ -92,26 +92,22 @@ input[type=text], select, textarea {
   .expertise {
     display: grid;
     justify-items: center;
-    justify-content: space-evenly;  
+    justify-content: space-evenly; 
     align-items: start;
-    grid-template-columns: 256px 256px 256px;
-    grid-template-rows: 256px 256px 256px;
+    place-self: top;
+    column-gap: 0px;
+    text-align: center;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: auto;
     grid-template-areas: 
       "header header header"
       "main main main"
       "main main main"
   }
 
-  .expertise-title {
+  .expertise-title{
     grid-area: header;
-
   }
-
-  .expertise-item: last-child, .item:nth-last-child(2):nth-child(odd) {
-    border-bottom: none; 
-
-  }
-
 
   .expertise-item-1 {
     grid-area: main;
