@@ -1,3 +1,60 @@
+
+.body
+
+
+
+/* story section */
+
+.story {
+    display: flex;
+    flex-direction: row;
+
+
+
+
+}
+
+/* watch our story */
+
+.watch-section {
+    background-image: url(/Pictures/1280px-Barneys_New_York_Logo.png);
+}
+
+/* team section */
+.team-section {
+    display: grid;
+    grid-template-columns: 80px 80px 80px 80px;
+    grid-template-rows: 30px 60px 30px;
+    grid-template-areas: 
+    "heade header header header"
+    "main main main main"
+    "footer footer footer"
+    ;
+}
+.team-opening-text {
+    grid-area: header;
+}
+
+   .employee-1 {
+       grid-area: main;
+   }
+
+   .employee-2 {
+       grid-area: main;
+   }
+
+   .employee-3 {
+       grid-area: main;
+   }
+
+   .employee-4 {
+       grid-area: main;
+   }
+
+   .team-closing-text {
+       grid-area: footer;
+   }
+=======
 body {
   margin: 0px;
   padding: 0px;
@@ -193,3 +250,4 @@ input[type=text], select, textarea {
     background-color: rgb(65, 61, 75);
     opacity: 0.302;
   }
+
