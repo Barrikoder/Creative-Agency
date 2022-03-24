@@ -1,3 +1,4 @@
+
 .body
 
 
@@ -53,3 +54,200 @@
    .team-closing-text {
        grid-area: footer;
    }
+=======
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #414247;
+}
+
+h1 {
+  font-family: "Playfair Display"; 
+  font-size: 32px;
+  color: #ffffff;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+h2 {
+  font-family: "Playfair Display";
+  font-size: 22px;
+  font-weight: 600;
+  margin: 10px;
+  text-transform: uppercase;
+  }
+
+h3 {
+  font-size: 18px;
+  font-weight: 900;
+}
+
+h4 {
+  font-size: 13px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: rgb(65, 61, 75);
+}
+
+h5 {
+  font-family: "Playfair Display";
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 24px;
+  margin-top: 0px;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  color: rgba(51, 51, 51, 0.749);
+}
+
+.ul {
+  display: inline;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 50%;
+    padding: 12px; 
+    border: 1px solid #ccc; /* Gray border */
+    margin-top: 5px; /* Add a top margin */
+    margin-bottom: 5px; /* Bottom margin */
+    
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    
+    color: white;
+    padding: 5px 20px;
+    border: solid;
+    border-radius: 0px;
+   
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: black;
+    
+  }
+  
+
+  /* Add a background color and some padding around the form */
+  .formSection {
+    width: 100%;
+    display: flex;
+  }
+  
+  .formContainer {
+    width: 100%;
+    border-radius: 5px;
+    border-color: black;
+    background-color: #f2f2f2;
+    padding: 20px;
+    
+
+  }
+  /*partnerLogosContainer*/
+  .partnerLogosContainer {
+    width: 100%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    justify-content: flex-end;;
+    
+  }
+
+
+  /** Expertise grid */
+
+  .img-logo {
+    height: 50px;
+  }
+
+  .expertise {
+    display: grid;
+    justify-items: center;
+    justify-content: center; 
+    align-items: start;
+    place-self: top;
+    column-gap: 0px;
+    text-align: center;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "header header header"
+      "main main main"
+      "main main main"
+  }
+
+  .expertise-title{
+    grid-area: header;
+    padding-bottom: 40px;
+  }
+
+  .expertise-item-1 {
+    grid-area: main;
+    grid-area: 2 / 1;
+    place-self: top;
+    text-align: center;
+    border-bottom: 1px solid #ebebeb;
+    border-right: 1px solid #ebebeb;
+    padding: 24px;
+  }
+
+  .expertise-item-2 {
+    grid-area: main;
+    grid-area: 2 / 2;
+    place-self: top;
+    text-align: center;
+    border-bottom: 1px solid #ebebeb;
+    border-right: 1px solid #ebebeb;
+    padding: 24px;
+  }
+
+  .expertise-item-3 {
+    grid-area: main;
+    grid-area: 2 / 3;
+    place-self: top;
+    text-align: center;
+    border-bottom: 1px solid #ebebeb;
+    padding: 24px;
+  }
+
+  .expertise-item-4 {
+    grid-area: main;
+    grid-area: 3 / 1;
+    place-self: top;
+    text-align: center;
+    border-right: 1px solid #ebebeb;
+    padding: 24px;
+  }
+
+  .expertise-item-5 {
+    grid-area: main;
+    grid-area: 3 / 2;
+    place-self: top;
+    text-align: center;
+    border-right: 1px solid #ebebeb;
+    padding: 24px;
+  }
+
+  .expertise-item-6 {
+    grid-area: main;
+    grid-area: 3 / 3;
+    place-self: top;
+    text-align: center;
+    padding: 24px;
+  }
+
+  hr {
+    width: 40px;
+    background-color: rgb(65, 61, 75);
+    opacity: 0.302;
+  }
+
