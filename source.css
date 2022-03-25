@@ -1,4 +1,4 @@
-.body
+
 
 
 
@@ -17,20 +17,26 @@
 /* watch our story */
 
 .watch-section {
-    background-image: url(/Pictures/bgk-middle.png);
+    background-image: url(./Pictures/bgk-middle.png);
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
 }
 
+.watch-items {
+    color: white;
+}
+
 /* team section */
 .team-section {
+    background-image: url(./Pictures/bgk-header.png);
+    background-position: relativ;
     display: grid;
     column-gap: 10px;
     row-gap: 10px;
     justify-items: center;
-    grid-template-columns: 150px 150px 150px 150px;
+    grid-template-columns: 200px 200px 200px 200px;
     grid-template-rows: 70px 200px 70px;
     justify-content: space-evenly;
     grid-template-areas: 
@@ -40,24 +46,30 @@
 }
     .team-opening-text {
         grid-area: header;
+        place-self: center;
 }   
 
    .employee-1 {
        grid-area: main;
+       place-self: center;
    }
 
    .employee-2 {
        grid-area: main;
+       place-self: center;
    }
 
    .employee-3 {
        grid-area: main;
+       place-self: center;
    }
 
    .employee-4 {
        grid-area: main;
+       place-self: center;
    }
 
    .team-closing-text {
        grid-area: footer;
+       place-self: center;
    }
