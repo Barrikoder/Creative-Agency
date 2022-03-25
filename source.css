@@ -181,13 +181,8 @@ input[type=text], select, textarea {
   /** Footer */
 
   .footer {
-    width: 100%;
-    position: relative;
-  }
-
-  .three-columns {
-    position: absolute;
-    top: 8px;
+    background: url(./Pictures/bgk-footer.png) no-repeat;
+    background-size: cover;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
