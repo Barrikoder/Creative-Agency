@@ -188,7 +188,8 @@ input[type=text], select, textarea {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    align-content: center;
+    align-items: flex-start;
+    gap: 10px;
   }
 
   .footer-column-1 {
