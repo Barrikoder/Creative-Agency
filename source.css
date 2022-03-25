@@ -7,9 +7,10 @@
 .story {
     display: flex;
     flex-direction: row;
-
-
-
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    row-gap: 20px;
 
 }
 
@@ -17,21 +18,32 @@
 
 .watch-section {
     background-image: url(/Pictures/1280px-Barneys_New_York_Logo.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
+
+.watch-items {
+
+}
+
+
 
 /* team section */
 .team-section {
     display: grid;
-    grid-template-columns: 80px 80px 80px 80px;
-    grid-template-rows: 30px 60px 30px;
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-items: center;
+    justify-content: space-evenly;
     grid-template-areas: 
-    "heade header header header"
-    "main main main main"
-    "footer footer footer"
-    ;
+    'header header header header'
+    'main main main main'
+    'footer footer footer footer';
 }
-.team-opening-text {
-    grid-area: header;
+    .team-opening-text {
+        grid-area: header;
 }
 
    .employee-1 {
