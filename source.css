@@ -181,8 +181,19 @@ input[type=text], select, textarea {
   /** Footer */
 
   .footer {
+<<<<<<< Updated upstream
     background: url(./Pictures/bgk-footer.png) no-repeat;
     background-size: cover;
+=======
+    width: 100%;
+    position: relative;
+    background: url("./Pictures/bgk-footer.png");
+  }
+
+  .three-columns {
+    position: absolute;
+    top: 8px;
+>>>>>>> Stashed changes
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
