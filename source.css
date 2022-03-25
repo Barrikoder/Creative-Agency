@@ -205,7 +205,17 @@ input[type=text], select, textarea {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: flex-start;
+    align-content: center;
+  }
+
+  .three-columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: center;
     gap: 10px;
+
   }
 
   .footer-column-1 {
