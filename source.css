@@ -55,28 +55,40 @@ p {
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
-    width: 50%;
+    width: 60%;
     padding: 12px; 
-    border: 1px solid #ccc; /* Gray border */
-    margin-top: 5px; /* Add a top margin */
-    margin-bottom: 5px; /* Bottom margin */
+    border: 1px solid #ccc; 
+    margin-top: 5px; 
+    margin-bottom: 5px; 
     
   }
   
   /* Style the submit button with a specific background color etc */
   input[type=submit] {
-    
-    color: white;
+
+    color: aquamarine;
     padding: 5px 20px;
     border: solid;
     border-radius: 0px;
+    border-color: aquamarine;
+    background-color: white;
+    justify-content: flex-end;
    
   }
   
   /* When moving the mouse over the submit button, add a darker green color */
   input[type=submit]:hover {
-    background-color: black;
+    background-color: purple;
     
+  }
+
+  .partnerLogoBox {
+  
+  height: 30px;
+  width: 90px;
+  padding: 15px;
+  
+  
   }
   
 
@@ -90,19 +102,17 @@ input[type=text], select, textarea {
     width: 100%;
     border-radius: 5px;
     border-color: black;
-    background-color: #f2f2f2;
     padding: 20px;
-    
+    justify-content: flex-end;
 
   }
   /*partnerLogosContainer*/
   .partnerLogosContainer {
     width: 100%;
     border-radius: 5px;
-    background-color: #f2f2f2;
     padding: 20px;
-    justify-content: flex-end;;
-    
+    justify-content: space-between;
+    flex-direction: row;
   }
 
 
