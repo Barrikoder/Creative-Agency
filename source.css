@@ -1,3 +1,27 @@
+
+
+.header1 {
+    text-align: center;
+    width: 650px;
+    margin: auto;
+    padding: 50px;
+    height: 670px;
+    place-self: center;
+  }
+
+.header1 p {
+color: #ffffff;
+  }
+
+
+.header-img {
+  background: url(./Pictures/bgk-header.png) no-repeat;
+}
+
+.header1 hr {
+    width: 40px;
+}
+
 body {
   margin: 0px;
   padding: 0px;
@@ -52,59 +76,6 @@ p {
 .ul {
   display: inline;
 }
-
-/* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-    width: 50%;
-    padding: 12px; 
-    border: 1px solid #ccc; /* Gray border */
-    margin-top: 5px; /* Add a top margin */
-    margin-bottom: 5px; /* Bottom margin */
-    
-  }
-  
-  /* Style the submit button with a specific background color etc */
-  input[type=submit] {
-    
-    color: white;
-    padding: 5px 20px;
-    border: solid;
-    border-radius: 0px;
-   
-  }
-  
-  /* When moving the mouse over the submit button, add a darker green color */
-  input[type=submit]:hover {
-    background-color: black;
-    
-  }
-  
-
-  /* Add a background color and some padding around the form */
-  .formSection {
-    width: 100%;
-    display: flex;
-  }
-  
-  .formContainer {
-    width: 100%;
-    border-radius: 5px;
-    border-color: black;
-    background-color: #f2f2f2;
-    padding: 20px;
-    
-
-  }
-  /*partnerLogosContainer*/
-  .partnerLogosContainer {
-    width: 100%;
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-    justify-content: flex-end;;
-    
-  }
-
 
   /** Expertise grid */
 
@@ -195,6 +166,8 @@ input[type=text], select, textarea {
   }
 
 
+
+
   /** Footer */
 
   .footer {
@@ -208,34 +181,184 @@ input[type=text], select, textarea {
     align-content: center;
   }
 
-  .three-columns {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    align-content: center;
-    gap: 10px;
+  .footer p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #ffffff;
+  }
 
+  .footer h4 {
+    color: #ffffff;
   }
 
   .footer-column-1 {
     width: 300px;
-  }
+    margin-top: 10px;
+   }
 
   .footer-column-2 {
     width: 300px;
-  }
+    }
 
   .footer-column-3 {
     width: 300px;
   }
 
-  .btn btn-default {
-  opacity: 80%;
-  }
+  .btn {
+    color: #001c08;
+    background: #ffffff 0.5;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    margin: 4px 4px;
+    cursor: pointer;
+    display: block;
+    }
 
   .our-studio li {
     list-style: none;
     margin-left: -40px
+  }
 
+
+  
+.story {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    padding-left: 300px;
+    padding-right: 300px;
+    row-gap: 20px;
+}
+
+.watch-section {
+    background-image: url("./Pictures/bgk-middle.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 550px;
+
+  }
+  .watch-items {
+    color: white;
+}
+
+
+
+.team-section {
+  background: url("./Pictures/bgk-header.png");
+  height: 550px;
+  display: grid;
+  column-gap: 10px;
+  justify-items: center;
+  justify-content: space-evenly; 
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-rows: 70px 200px 70px;
+  grid-template-areas: 
+  'header header header header'
+  'main main main main'
+  'footer footer footer footer';
+}
+
+.team-section p {
+  color: #ffffff;
+}
+
+
+.team-section h2 {
+  color: #ffffff;
+}
+
+.team-opening-text {
+  grid-area: header;
+  
+}
+
+.employee-1 {
+ grid-area: main;
+
+}
+
+.employee-2 {
+ grid-area: main;
+
+}
+
+.employee-3 {
+ grid-area: main;
+
+}
+
+.employee-4 {
+ grid-area: main;
+ 
+}
+
+.team-closing-text {
+ grid-area: footer;
+
+}
+
+
+input[type=text], select, textarea {
+    width: 60%;
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    margin-top: 5px; 
+    margin-bottom: 5px; 
+
+  }
+
+    input {
+    color: aquamarine;
+    padding: 5px 20px;
+    border: solid;
+    border-radius: 0px;
+    border-color: aquamarine;
+    background-color: white;
+    justify-content: flex-end;
+
+  }
+
+  input[type=submit]:hover {
+    background-color: purple;
+
+  }
+
+  .partnerLogoBox {
+
+  height: 30px;
+  width: 90px;
+  padding: 15px;
+
+
+  }
+
+
+  .formSection {
+    width: 100%;
+    display: flex;
+  }
+
+  .formContainer {
+    width: 100%;
+    border-radius: 5px;
+    border-color: black;
+    padding: 20px;
+    justify-content: flex-end;
+
+  }
+
+  .partnerLogosContainer {
+    width: 100%;
+    border-radius: 5px;
+    padding: 20px;
+    justify-content: space-between;
+    flex-direction: row;
   }
