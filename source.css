@@ -1,3 +1,22 @@
+
+
+.header1 {
+    text-align: center;
+    width: 650px;
+    margin: auto;
+}
+
+.header1 hr {
+    width: 40px;
+}
+
+
+
+
+
+
+
+
 body {
   margin: 0px;
   padding: 0px;
@@ -205,6 +224,8 @@ input[type=text], select, textarea {
   }
 
 
+
+
   /** Footer */
 
   .footer {
@@ -241,3 +262,4 @@ input[type=text], select, textarea {
     margin-left: -40px
 
   }
+
